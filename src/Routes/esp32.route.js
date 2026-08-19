@@ -5,6 +5,6 @@ const router = Router()
 
 router.post('/create',medidorCtrl.create)
 router.get('/getAll',medidorCtrl.getAll)
-router.post('/update/:id',medidorCtrl.update)
+router.put('/update/:id',medidorCtrl.update)
 
 module.exports = router
