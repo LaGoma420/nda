@@ -9,5 +9,6 @@ router.get('/getAll',medidorCtrl.getAll)
 router.put('/update/:id',medidorCtrl.update)
 // Bomba
 router.get('/bomba/on',sinricCtrl.bombaOn)
+router.get('/bomba/off',sinricCtrl.bombaOff)
 
 module.exports = router
